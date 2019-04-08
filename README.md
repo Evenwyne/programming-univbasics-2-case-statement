@@ -65,8 +65,6 @@ end
 
 Nice!
 
-## SWBAT 2
-
 Now that we understand *when* to use a `case` statement in place of a series of
 `if` and `elsif` statements, let's look at *how* to build a `case` statement
 from scratch.
@@ -113,7 +111,7 @@ end
 
 In this example, we set the `current_weather` to `"raining"`. Next, we use
 `when` statements to describe a list of possible matches. Since
-`current_weather === "raining"` we'd expect this code to put `"grab an
+`current_weather == "raining"` we'd expect this code to put `"grab an
 umbrella"`.
 
 ```ruby
