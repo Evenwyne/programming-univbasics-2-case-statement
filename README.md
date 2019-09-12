@@ -5,7 +5,7 @@
 * Translate a `case` statement from `if...elsif...else...end`
 * Write a `case` statement
 
-## Introduction
+## Introduction ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 A case statement is a powerful tool to test for performing _selection_, just
 like `if...elsif...elsif...end`. They are used to test multiple conditions
@@ -15,7 +15,7 @@ multiple `elsif`s.
 Not all languages have them! Python doesn't! It thinks that `if` and `else if`
 are sufficient. But Ruby has them, so we'll learn to use them.
 
-## Translate a `case` statement from `if...elsif...else...end`
+## Translate a `case` statement from `if...elsif...else...end` ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 Let's say we have a program that sets a `name` variable equal to a person's
 name. Our program needs to execute certain code depending on what that person's
@@ -107,7 +107,7 @@ case greeting
 end
 ```
 
-## Example
+## Example ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
 
 In this example, we set the `current_weather` to `"raining"`. Next, we use
 `when` statements to describe a list of possible matches. Since
