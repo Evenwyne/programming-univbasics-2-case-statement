@@ -15,7 +15,7 @@ multiple `elsif`s.
 Not all languages have them! Python doesn't! It thinks that `if` and `else if`
 are sufficient. But Ruby has them, so we'll learn to use them.
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Translate a `case` statement from `if...elsif...else...end`
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Translate a `case` statement from `if...elsif...else...end`
 
 Let's say we have a program that sets a `name` variable equal to a person's
 name. Our program needs to execute certain code depending on what that person's
@@ -107,7 +107,7 @@ case greeting
 end
 ```
 
-## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png) Example
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_midi.png) Example
 
 In this example, we set the `current_weather` to `"raining"`. Next, we use
 `when` statements to describe a list of possible matches. Since
