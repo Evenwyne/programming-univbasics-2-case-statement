@@ -5,7 +5,7 @@
 * Translate a `case` statement from `if...elsif...else...end`
 * Write a `case` statement
 
-## Introduction ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
+## Introduction
 
 A case statement is a powerful tool to test for performing _selection_, just
 like `if...elsif...elsif...end`. They are used to test multiple conditions
@@ -15,7 +15,7 @@ multiple `elsif`s.
 Not all languages have them! Python doesn't! It thinks that `if` and `else if`
 are sufficient. But Ruby has them, so we'll learn to use them.
 
-## Translate a `case` statement from `if...elsif...else...end` ![Sequence Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Sequence_mini.png) 
+## ![Selection Glyph](https://curriculum-content.s3.amazonaws.com/programming-univbasics-2/sequence-and-comments/Selection_mini.png)  Translate a `case` statement from `if...elsif...else...end`
 
 Let's say we have a program that sets a `name` variable equal to a person's
 name. Our program needs to execute certain code depending on what that person's
@@ -44,7 +44,7 @@ As we can see, there's a lot of repetition here.
 * We have the "none match" option stored in the `else` block
 
 This is a pretty common _selection_ need. It's so standard, that the `case`
-statement was created to cut down the typing, but do the same thing. Here it
+statement was created to cut down the typing but do the same thing. Here it
 is, but translated:
 
 ```ruby
